@@ -13,4 +13,10 @@ or we reach the limits of the table( which is the case of not existence of X in 
 Here are the steps :
 
 1- seach for the middle index
+
+2- if middle element equals x , return middle
+
+3- if tab[midle]  > x ==> take  left half of   array
  
+4- else if tab[mid] <x ==> take  right half of array
+
